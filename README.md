@@ -44,9 +44,9 @@ This project was developed using:
 
 -✅ CSS3 layout techniques including:
 
-CSS Grid
+  - CSS Grid
 
-Flexbox
+  - Flexbox
 
 -✅ Responsive Design through media queries
 
