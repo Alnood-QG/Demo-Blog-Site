@@ -21,7 +21,7 @@ This project includes:
 No installation needed. Just clone or download the project:
 
 ```bash
-git clone https://github.com/yourusername/Demo-blog-Site.git
+git clone https://github.com/Alnood-QG/Demo-Blog-Site.git
 cd personal-blog
 ```
 Then open index.html in your browser.
