@@ -1,9 +1,7 @@
-
+![Personal Blog Project](image/logo.png)
 # 📝 Personal Blog Project
 
-Personal Blog Website
-Responsive blog interface built using **HTML5 and CSS3**, focusing on clean layout, reusable components, and structured content presentation.
-Designed to maintain readability across different screen sizes.
+This is a **personal blog website** project created as a front-end practice exercise to showcase my **layout, design, and responsiveness skills** using **HTML5 and CSS3**.
 
 ---
 
@@ -23,7 +21,7 @@ This project includes:
 No installation needed. Just clone or download the project:
 
 ```bash
-git clone https://github.com/Alnood-QG/Demo-Blog-Site.git
+git clone https://github.com/yourusername/Demo-blog-Site.git
 cd personal-blog
 ```
 Then open index.html in your browser.
@@ -46,9 +44,9 @@ This project was developed using:
 
 -✅ CSS3 layout techniques including:
 
-  - CSS Grid
+CSS Grid
 
-  - Flexbox
+Flexbox
 
 -✅ Responsive Design through media queries
 
