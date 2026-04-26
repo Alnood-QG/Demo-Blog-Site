@@ -1,0 +1,141 @@
+
+/*used in home page */
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+                grid-template-areas:
+                    "we"
+                    "main";
+                margin: 0 5%; }
+            /* force cards to go down when screen get small*/
+            .cardS {
+                grid-template-columns: 1fr; }
+        
+        }
+         /*home page */
+        @media (max-width: 600px) {
+        .author-grid {
+            grid-template-columns: 1fr;
+            text-align: center; }
+
+        .author-avatar {
+            justify-self: center;}
+         /*Make navbar Responsiveness (footer page)*/
+            .nav-links {
+                font-size: 0.88rem;
+                gap: 10px;}
+
+            .logo {
+                display: block; 
+                margin: 0; }
+            }
+
+        
+ /*used in Blog pages */ 
+
+        /* media for flexble images */
+        @media (max-width: 768px) {
+        .imgBox1 {
+            flex-direction: column; 
+            height: auto; }
+
+        .imgHalf {
+            width: 100%;
+            height: auto;}
+        }
+
+         /* core.css page */
+        @media (max-width: 600px) {
+        .quote-grid {
+            grid-template-columns: 1fr;
+            text-align: center; }
+
+        .quote-avatar img  {
+            justify-self: center; }
+        }
+
+        
+       
+        /*side Author info in ipad and Ebook */
+
+                @media (max-width: 768px) {
+                  .container {
+            grid-template-columns: 1fr 1fr; /* عمودان فقط */
+            grid-template-areas:
+              "we  we"
+              "hd  hd"
+              "main main"; /* ⬅️ بدون si */
+          }
+
+          .author-sidebar {
+            display: flex;
+            grid-area: unset;
+            top: 55%;
+            bottom: 5%;
+            position: fixed;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background-color: #f5f9ff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            z-index: 999;
+            overflow: hidden;
+            transition: width 0.3s ease, height 0.3s ease;
+          }
+
+          .author-sidebar::before {
+            content: "👤";
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 1.75rem;
+            height: 100%;
+            width: 100%;
+            color: white;
+          }
+
+          .sidebar-content {
+            opacity: 0;
+            display: none;
+            transition: opacity 0.3s ease;
+          }
+
+          .author-sidebar:hover {
+            width: 280px;
+            height: auto;
+            max-height: 90vh;
+          }
+
+          .author-sidebar:hover::before {
+            content: "";
+            display: none;
+          }
+
+          .author-sidebar:hover .sidebar-content {
+            opacity: 1;
+            display: block;
+            padding: 10px;
+          }
+        }
+
+        /*Make navbar Responsiveness */
+        @media (max-width: 600px) {
+            .nav-links {
+                font-size: 0.88rem;
+                gap: 10px;
+                
+        }
+           .logo {
+            display: block; 
+            margin: 0 auto;
+            justify-content: center; 
+        }}
+
+
+       
+         
+        
+
+     

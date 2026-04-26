@@ -1,0 +1,36 @@
+    /* Footer Settings*/
+        .footer {
+            position: relative; /* content object inside*/
+            width: 100%;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          /* to set color with transparent*/
+            background: linear-gradient( to top, rgba(10, 102, 194, 0.9),rgba(33, 91, 204, 0) );   
+        }
+
+        .imgFo {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            background-repeat:repeat;  
+            opacity: 0.4; 
+            pointer-events: none; /*cant click on */
+            user-select: none; /*cant celect */
+        }
+
+        .footer-text {
+            position: relative;
+            z-index: 1; 
+            color: white;
+            font-size: clamp(0.875rem, 2vw, 1.5rem);
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            white-space: nowrap;
+        }
+
+        
+        

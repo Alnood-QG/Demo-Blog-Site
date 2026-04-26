@@ -1,0 +1,50 @@
+
+@import url("header.css");
+@import url("home.css");
+ @import url("responsive.css");
+@import url("footer.css");
+
+      .container {
+            display: grid;
+            background-color: #f5f9ff;
+            grid-template-columns: 1fr 1fr;  
+            grid-template-rows: auto; 
+            margin: 0 10%;  
+            grid-gap: 5px;
+            grid-template-areas:
+                "we we"
+                "main main";
+        }
+
+      /* boc to hold Grid object */
+        .box {
+            background: #f5f9ff;
+            padding: 10px 20px;
+            min-width: 0;   
+            overflow-wrap: break-word;
+            box-sizing: border-box;
+        }
+        .meBox{
+            background:  #f5f9ff;
+        }
+        .header{
+            grid-area: we;
+
+        }
+        .update{
+        
+            grid-area: hd;
+        }
+        
+        .content {
+            grid-area: main;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+       
+
+       
+
+
+

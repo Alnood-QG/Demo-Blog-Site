@@ -1,0 +1,107 @@
+/*used in all Pages */
+
+        /* quote Settings */  
+        .quote-section {
+            background-color: #f5f9ff;
+            padding: 30px 40px;
+            margin: 20px 0;
+        }
+        .quote-grid {
+            display: grid;
+            grid-template-columns: 120px 1fr;
+            gap: 20px;
+            align-items: center;
+        }
+        .quote-avatar img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .quoteSet {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        color: #215bcc;
+        }
+        blockquote {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 0;
+        }
+
+        /* blog post */
+        .imgBox {
+            background: #f5f9ff;
+            flex-wrap: wrap;            
+            width: 100%;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /*overflow: hidden;*/
+            box-sizing: border-box;
+            height: auto;
+        }
+
+        .imgInBox {
+            width: 100%;
+            height: auto; 
+            max-width: calc(60% - 20px);
+            object-fit: contain;
+            pointer-events: none;
+            user-select: none;
+            display: block;
+            pointer-events: none; /*cant click on */
+            user-select: none; /*cant celect */
+        }
+
+        /* blog post 2 in one line*/
+        .imgBox1{
+            display:flex;          
+            width:100%;
+            gap: 20px; 
+            height: auto;
+            flex-wrap: wrap;            
+            pointer-events: none; 
+            user-select: none; 
+        }
+        .imgHalf{
+            flex:1;            
+            height:500px;
+            max-width: calc(90% - 20px); 
+            object-fit:cover;     
+            pointer-events: none; /*cant click on */
+            user-select: none; /*cant celect */
+        }
+
+        figure {
+            flex: 1;
+            display: flex;
+            flex-direction: column; 
+            margin: 0;
+            color: #0a66c2;
+        }
+
+        /*video Settings*/
+        .video-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px; 
+            flex-wrap: wrap;
+            margin: 20px auto;
+        }
+
+        .video {
+            width: 300px;   
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #00000026;
+            background-color: #0a66c2;
+
+        }
+
+
+
+            
+

@@ -1,0 +1,83 @@
+@import url("header.css");
+@import url("footer.css");   
+@import url("core.css");
+@import url("responsive.css");  
+ 
+
+        .container{
+          display:grid;
+          background-color: #f5f9ff;
+          grid-template-columns: 1fr 1fr 1fr;  
+          grid-template-rows: 120px 40px auto;
+          margin:0 15%;                   
+          grid-gap:5px;
+          grid-template-areas:
+            "we  we we"
+            "hd  hd si"
+             "main main si";      
+        }
+        
+        .author-sidebar {
+          top: 20px;
+
+          grid-area: si;
+          padding: 15px;
+          position: sticky;
+          align-self: start;
+          background-color: #f5f9ff;
+          border-radius: 10px;
+        }
+         .avatar {
+            width: 60px;
+            border-radius: 50%;
+            margin: 10px 0;
+           }
+
+        /* container is content */
+        .box{
+            background: #f5f9ff;
+            padding: 10px 20px; 
+            
+        }
+        .meBox{
+            /*width: 250px;*/
+            background:  #f5f9ff;
+        }
+        .header{
+            grid-area: we;
+
+        }
+        .update{
+         /*row start/clumn start/row end/colum end*/
+            grid-area: hd;
+        }
+        .content{
+            grid-area: main;
+            padding: 10px 10%;
+        }
+       
+        /*Text Settings */
+        h1{
+            font-size:clamp(2rem,5vw,3rem); 
+            font-weight:700;
+            margin:0 0 24px;
+            color: #000f5f;
+        }
+        h2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #000f5f;
+        }
+        p{
+            font-size: 1.25rem;
+            font-family:"Inter",sans-serif;
+            color: #000f5f;  
+        }
+
+
+         
+
+    
+
+
+
+
