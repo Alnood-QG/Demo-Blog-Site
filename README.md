@@ -1,7 +1,9 @@
 
 # 📝 Personal Blog Project
 
-This is a **personal blog website** project created as a front-end practice exercise to showcase my **layout, design, and responsiveness skills** using **HTML5 and CSS3**.
+Personal Blog Website
+Responsive blog interface built using **HTML5 and CSS3**, focusing on clean layout, reusable components, and structured content presentation.
+Designed to maintain readability across different screen sizes.
 
 ---
 
